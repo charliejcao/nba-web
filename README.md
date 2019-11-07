@@ -14,5 +14,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 List of URL Resources (Temp):
 
 https://github.com/bttmly/nba
+
 https://github.com/mc-buckets/d3-shotchart
 
