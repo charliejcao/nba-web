@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
+//import ShotChart from './ShotChart';
+import Profile from './Profile';
 import nba from 'nba';
-
-import Profile from "./Profile";
 
 class Main extends Component {
     state = {
-        playerId: nba.findPlayer('Stephen Curry').playerId,
+        playerId: nba.findPlayer('Jeremy Lin').playerId,
         playerInfo: {},
     }
 
@@ -21,11 +21,11 @@ class Main extends Component {
 
     render() {
         return (
-            <div>
-                <Profile />
+            <div className="main">
+                <Profile playerInfo={this.state.playerInfo} />
             </div>
         );
     }
 }
 
-export default Main
+export default Main;
