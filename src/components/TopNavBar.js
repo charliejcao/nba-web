@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from "../assets/images/nba-logoman-word-white.svg";
 
-class TopNavBar extends Component {
-    render() {
-        return (
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-            </header>
-        );
-    }
+const TopNavBar = () => {
+    return (
+        <header className="App-header">
+            <img src={logo} className="App-logo" alt="logo" />
+        </header>
+    );
 }
 
 export default TopNavBar;
+
