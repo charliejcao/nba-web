@@ -13,6 +13,7 @@ class Profile extends Component {
             playerId,
             pts, reb, ast, pie,
         } = this.props.playerInfo;
+
         return (
             <div className="profile">
                 <div className="profile-entry player-name">{`${playerName}`}</div>
