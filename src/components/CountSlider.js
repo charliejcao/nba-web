@@ -3,7 +3,7 @@ import { Slider, InputNumber, Row, Col } from 'antd';
 
 class CountSlider extends Component {
     state = {
-        inputValue: 2,
+        inputValue: 1,
     }
 
     onChange = (value) => {
