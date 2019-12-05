@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import ShotChart from './ShotChart';
-import CountSlider from './CountSlider';
 import { Radio, Switch, Row, Col } from 'antd';
 import _ from 'lodash';
+import ShotChart from './ShotChart';
+import CountSlider from './CountSlider';
 
 const RadioGroup = Radio.Group;
 
@@ -10,7 +10,7 @@ class DataViewContainer extends Component {
     state = {
         minCount: 2,
         chartType: 'hexbin',
-        displayTooltip: true,
+        displayTooltip: true
     }
     handleCountSliderChange = (count) => {
         this.setState({ minCount: count });

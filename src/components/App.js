@@ -4,7 +4,7 @@ import Main from './Main';
 
 import '../styles/App.css';
 
-const App = () => {
+function App() {
     return (
         <div className="App">
           <TopNavBar />

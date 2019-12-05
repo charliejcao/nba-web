@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import DataViewContainer from './DataViewContainer';
 import nba from 'nba'
-import Profile from './Profile';
 import SearchBar from './SearchBar';
+import Profile from './Profile';
+import DataViewContainer from './DataViewContainer';
 import { DEFAULT_PLAYER_INFO } from '../Constants';
 
 class Main extends Component {
